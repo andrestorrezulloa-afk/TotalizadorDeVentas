@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "2b11c4985cf379f3dd63cacf16122d2880cf0e9f",
     "author": "André Ermoth",
     "commit": {
       "date": "2026-09-07T02:53:00.000Z",
       "message": "feature: precio neto",
-      "url": "https://github.com/andrestorrezulloa-afk/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/andrestorrezulloa-afk/TotalizadorDeVentas/commit/2b11c4985cf379f3dd63cacf16122d2880cf0e9f"
     },
     "stats": {
       "total": 28,
@@ -15,6 +15,25 @@
     },
     "coverage": 100,
     "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "André Ermoth",
+    "commit": {
+      "date": "2026-09-07T03:04:20.000Z",
+      "message": "feature: impuesto aplicado a la compra",
+      "url": "https://github.com/andrestorrezulloa-afk/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 27,
+      "additions": 24,
+      "deletions": 3,
+      "date": "2026-09-07"
+    },
+    "coverage": 100,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -1,8 +1,14 @@
 [
   {
-    "commitId": "HEAD",
+    "commitId": "2b11c4985cf379f3dd63cacf16122d2880cf0e9f",
     "commitName": "feature: precio neto",
     "commitTimestamp": 1788749581545,
     "testId": 0
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feature: impuesto aplicado a la compra",
+    "commitTimestamp": 1788750261525,
+    "testId": 1
   }
 ]
