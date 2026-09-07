@@ -6,9 +6,15 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c081c278fbce6e3bc960fb287a545322dfe3861d",
     "commitName": "feature: impuesto aplicado a la compra",
     "commitTimestamp": 1788750261525,
     "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feature: primer test al descuento aplicado a la compra",
+    "commitTimestamp": 1788750642932,
+    "testId": 2
   }
 ]
