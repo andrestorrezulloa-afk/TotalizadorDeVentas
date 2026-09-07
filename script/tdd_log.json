@@ -36,9 +36,15 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "26fa160ad1e12c0b08f5029f2768448f26edcc78",
     "commitName": "feature: regla de negocios para cantidad",
     "commitTimestamp": 1788753758153,
     "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feature: regla de negocios para precio",
+    "commitTimestamp": 1788753860488,
+    "testId": 7
   }
 ]

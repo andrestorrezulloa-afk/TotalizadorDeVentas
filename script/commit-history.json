@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "26fa160ad1e12c0b08f5029f2768448f26edcc78",
     "author": "André Ermoth",
     "commit": {
       "date": "2026-09-07T04:02:37.000Z",
       "message": "feature: regla de negocios para cantidad",
-      "url": "https://github.com/andrestorrezulloa-afk/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/andrestorrezulloa-afk/TotalizadorDeVentas/commit/26fa160ad1e12c0b08f5029f2768448f26edcc78"
     },
     "stats": {
       "total": 10,
@@ -129,6 +129,25 @@
     },
     "coverage": 100,
     "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "André Ermoth",
+    "commit": {
+      "date": "2026-09-07T04:04:19.000Z",
+      "message": "feature: regla de negocios para precio",
+      "url": "https://github.com/andrestorrezulloa-afk/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 12,
+      "deletions": 0,
+      "date": "2026-09-07"
+    },
+    "coverage": 100,
+    "test_count": 13,
     "failed_tests": 0,
     "conclusion": "success"
   }
