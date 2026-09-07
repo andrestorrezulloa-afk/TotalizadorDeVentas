@@ -12,9 +12,15 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "80e5cd72652101dd897ef782e4ebc86b780cef07",
     "commitName": "feature: primer test al descuento aplicado a la compra",
     "commitTimestamp": 1788750642932,
     "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feature: Segundo test al descuento aplicado a la compra",
+    "commitTimestamp": 1788750748275,
+    "testId": 3
   }
 ]

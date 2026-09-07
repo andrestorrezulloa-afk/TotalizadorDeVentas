@@ -18,6 +18,8 @@ describe("Totalizador - Descuento", () => {
   it("deberia calcular 0 de descuento si el monto es menor a 1000", () => {
     expect(calcularDescuento(500)).toEqual(0);
   });
-
+  it("deberia calcular 3% de descuento si el monto es exactamente 1000", () => {
+    expect(calcularDescuento(1000)).toEqual(30);
+  });
   
 });
