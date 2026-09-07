@@ -24,9 +24,15 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6d12773522680f7ec25bbff357e77e7ab13024f6",
     "commitName": "feature: Tercer y cuarto test al descuento aplicado a la compra",
     "commitTimestamp": 1788750955648,
     "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feature: Todos los test de descuento y cambio de la funcion calcularDescuento para no tener residuos",
+    "commitTimestamp": 1788751395875,
+    "testId": 5
   }
 ]

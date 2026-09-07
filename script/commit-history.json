@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6d12773522680f7ec25bbff357e77e7ab13024f6",
     "author": "André Ermoth",
     "commit": {
       "date": "2026-09-07T03:15:54.000Z",
       "message": "feature: Tercer y cuarto test al descuento aplicado a la compra",
-      "url": "https://github.com/andrestorrezulloa-afk/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/andrestorrezulloa-afk/TotalizadorDeVentas/commit/6d12773522680f7ec25bbff357e77e7ab13024f6"
     },
     "stats": {
       "total": 12,
@@ -91,6 +91,25 @@
     },
     "coverage": 100,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "André Ermoth",
+    "commit": {
+      "date": "2026-09-07T03:23:14.000Z",
+      "message": "feature: Todos los test de descuento y cambio de la funcion calcularDescuento para no tener residuos",
+      "url": "https://github.com/andrestorrezulloa-afk/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 24,
+      "additions": 19,
+      "deletions": 5,
+      "date": "2026-09-07"
+    },
+    "coverage": 100,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }
