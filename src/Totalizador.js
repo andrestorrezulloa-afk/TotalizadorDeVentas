@@ -16,6 +16,9 @@ export function calcularImpuesto(precioNeto, estado) {
     "AL": 0.0400, 
     "CA": 0.0825  
   };
+  if (!(estado in impuestosPorEstado)) {
+    return "Estado inválido";
+  }
   const tasa = impuestosPorEstado[estado] || 0;
   return precioNeto * tasa;
 }

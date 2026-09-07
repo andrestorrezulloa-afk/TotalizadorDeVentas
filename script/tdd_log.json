@@ -42,9 +42,15 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5cec849f41c6ff4b868184108053364440e3e878",
     "commitName": "feature: regla de negocios para precio",
     "commitTimestamp": 1788753860488,
     "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feature: regla de negocios para estados",
+    "commitTimestamp": 1788754112063,
+    "testId": 8
   }
 ]
