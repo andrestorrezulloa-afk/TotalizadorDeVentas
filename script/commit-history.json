@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "André Ermoth",
+    "commit": {
+      "date": "2026-09-07T02:53:00.000Z",
+      "message": "feature: precio neto",
+      "url": "https://github.com/andrestorrezulloa-afk/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 28,
+      "additions": 13,
+      "deletions": 15,
+      "date": "2026-09-07"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
