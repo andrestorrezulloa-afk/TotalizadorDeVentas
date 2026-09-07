@@ -57,12 +57,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "70773c6d10e9509a7230e8e888ba8d62f7922b8c",
     "author": "André Ermoth",
     "commit": {
       "date": "2026-09-07T03:12:27.000Z",
       "message": "feature: Segundo test al descuento aplicado a la compra",
-      "url": "https://github.com/andrestorrezulloa-afk/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/andrestorrezulloa-afk/TotalizadorDeVentas/commit/70773c6d10e9509a7230e8e888ba8d62f7922b8c"
     },
     "stats": {
       "total": 5,
@@ -72,6 +72,25 @@
     },
     "coverage": 100,
     "test_count": 5,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "André Ermoth",
+    "commit": {
+      "date": "2026-09-07T03:15:54.000Z",
+      "message": "feature: Tercer y cuarto test al descuento aplicado a la compra",
+      "url": "https://github.com/andrestorrezulloa-afk/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 11,
+      "deletions": 1,
+      "date": "2026-09-07"
+    },
+    "coverage": 100,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -14,6 +14,8 @@ export function calcularImpuesto(precioNeto, estado) {
   return precioNeto * tasa;
 }
 export function calcularDescuento(precioNeto) {
+  if (precioNeto >= 30000) return precioNeto * 0.15;
+  if (precioNeto >= 3000) return precioNeto * 0.05;
   if (precioNeto >= 1000) return precioNeto * 0.03;
   return 0; 
 }
