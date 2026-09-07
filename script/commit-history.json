@@ -95,12 +95,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "65e13d82ba712279cf7e7c7d1971e26da3a519da",
     "author": "André Ermoth",
     "commit": {
       "date": "2026-09-07T03:23:14.000Z",
       "message": "feature: Todos los test de descuento y cambio de la funcion calcularDescuento para no tener residuos",
-      "url": "https://github.com/andrestorrezulloa-afk/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/andrestorrezulloa-afk/TotalizadorDeVentas/commit/65e13d82ba712279cf7e7c7d1971e26da3a519da"
     },
     "stats": {
       "total": 24,
@@ -110,6 +110,25 @@
     },
     "coverage": 100,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "André Ermoth",
+    "commit": {
+      "date": "2026-09-07T04:02:37.000Z",
+      "message": "feature: regla de negocios para cantidad",
+      "url": "https://github.com/andrestorrezulloa-afk/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2026-09-07"
+    },
+    "coverage": 100,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }

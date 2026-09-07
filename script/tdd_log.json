@@ -30,9 +30,15 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "65e13d82ba712279cf7e7c7d1971e26da3a519da",
     "commitName": "feature: Todos los test de descuento y cambio de la funcion calcularDescuento para no tener residuos",
     "commitTimestamp": 1788751395875,
     "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feature: regla de negocios para cantidad",
+    "commitTimestamp": 1788753758153,
+    "testId": 6
   }
 ]

@@ -1,4 +1,7 @@
 export function calcularPrecioNeto(cantidad, precio) {
+  if (cantidad <= 0) {
+    return "Cantidad inválida";
+  }
   return cantidad * precio;
 }
 

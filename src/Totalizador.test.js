@@ -4,6 +4,13 @@ describe("Totalizador - Precio Neto", () => {
   it("deberia calcular el precio neto multiplicando la cantidad por el precio", () => {
     expect(calcularPrecioNeto(3, 20)).toEqual(60);
   });
+  it("debería retornar 'Cantidad inválida' si la cantidad es cero", () => {
+    expect(calcularPrecioNeto(0, 20)).toEqual("Cantidad inválida");
+  });
+
+  it("debería retornar 'Cantidad inválida' si la cantidad es negativa", () => {
+    expect(calcularPrecioNeto(-5, 20)).toEqual("Cantidad inválida");
+  });
 });
 describe("Totalizador - Impuesto", () => {
   it("deberia calcular el monto del impuesto para el estado TX (6.25%)", () => {
