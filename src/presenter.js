@@ -1,4 +1,4 @@
-import { calcularPrecioNeto, calcularImpuesto, calcularDescuento, cancelarCompra } from "./Totalizador.js";
+import { calcularPrecioNeto, calcularImpuesto, calcularDescuento, cancelarCompra, confirmarCompra } from "./Totalizador.js";
 
 const cantidadInput = document.querySelector("#cantidad");
 const precioInput = document.querySelector("#precio");
@@ -6,6 +6,7 @@ const estadoSelect = document.querySelector("#estado");
 const form = document.querySelector("#totalizador-form");
 const cancelarBtn = document.querySelector("#cancelar-btn");
 const div = document.querySelector("#resultado-div");
+const confirmarBtn = document.querySelector("#confirmar-btn");
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
@@ -40,7 +41,9 @@ form.addEventListener("submit", (event) => {
     <p><strong>Precio Total:</strong> $${total}</p>
   `;
 });
-
+confirmarBtn.addEventListener("click", () => {
+  div.innerHTML = `<p style="color: green; font-weight: bold;">${confirmarCompra()}</p>`;
+});
 cancelarBtn.addEventListener("click", () => {
   cancelarCompra(cantidadInput, precioInput, estadoSelect, div);
 });

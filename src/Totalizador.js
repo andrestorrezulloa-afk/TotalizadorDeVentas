@@ -41,3 +41,7 @@ export function cancelarCompra(cantidadInput, precioInput, estadoSelect, resulta
   estadoSelect.value = "UT";
   resultadoDiv.innerHTML = "";
 }
+
+export function confirmarCompra() {
+  return "Compra confirmada";
+}

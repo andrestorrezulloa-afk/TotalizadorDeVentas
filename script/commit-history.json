@@ -247,12 +247,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "35bde355f99345a2394deb1a0ed27224d3af2d0e",
     "author": "André Ermoth",
     "commit": {
       "date": "2026-09-08T01:52:00.000Z",
       "message": "feature: Cancelar compra en la interfaz",
-      "url": "https://github.com/andrestorrezulloa-afk/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/andrestorrezulloa-afk/TotalizadorDeVentas/commit/35bde355f99345a2394deb1a0ed27224d3af2d0e"
     },
     "stats": {
       "total": 8,
@@ -261,6 +261,25 @@
       "date": "2026-09-08"
     },
     "coverage": 100,
+    "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "André Ermoth",
+    "commit": {
+      "date": "2026-09-08T02:03:25.000Z",
+      "message": "feature: Confirmar compra",
+      "url": "https://github.com/andrestorrezulloa-afk/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 10,
+      "deletions": 2,
+      "date": "2026-09-08"
+    },
+    "coverage": 96.43,
     "test_count": 15,
     "failed_tests": 0,
     "conclusion": "success"
