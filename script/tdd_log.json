@@ -84,9 +84,15 @@
     "testId": 13
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e1be8de3aecdb115cd453b48cd5d243ea11433bf",
     "commitName": "feature: Confirmar compra",
     "commitTimestamp": 1788833005853,
     "testId": 14
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix:Se Arreglo calcularImpuestos porque mostraban incontables decimales",
+    "commitTimestamp": 1788836083867,
+    "testId": 15
   }
 ]

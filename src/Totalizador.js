@@ -20,7 +20,7 @@ export function calcularImpuesto(precioNeto, estado) {
     return "Estado inválido";
   }
   const tasa = impuestosPorEstado[estado] || 0;
-  return precioNeto * tasa;
+  return Number((precioNeto * tasa).toFixed(2));
 }
 export function calcularDescuento(precioNeto) {
   let porcentaje = 0;

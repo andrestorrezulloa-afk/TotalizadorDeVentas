@@ -266,17 +266,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e1be8de3aecdb115cd453b48cd5d243ea11433bf",
     "author": "André Ermoth",
     "commit": {
       "date": "2026-09-08T02:03:25.000Z",
       "message": "feature: Confirmar compra",
-      "url": "https://github.com/andrestorrezulloa-afk/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/andrestorrezulloa-afk/TotalizadorDeVentas/commit/e1be8de3aecdb115cd453b48cd5d243ea11433bf"
     },
     "stats": {
       "total": 12,
       "additions": 10,
       "deletions": 2,
+      "date": "2026-09-08"
+    },
+    "coverage": 96.43,
+    "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "André Ermoth",
+    "commit": {
+      "date": "2026-09-08T02:54:43.000Z",
+      "message": "fix:Se Arreglo calcularImpuestos porque mostraban incontables decimales",
+      "url": "https://github.com/andrestorrezulloa-afk/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
       "date": "2026-09-08"
     },
     "coverage": 96.43,
