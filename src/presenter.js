@@ -15,7 +15,10 @@ form.addEventListener("submit", (event) => {
 
   const precioNeto = calcularPrecioNeto(cantidad, precio);
 
-  
+  if (typeof precioNeto === "string") {
+    div.innerHTML = `<p style="color: red;">${precioNeto}</p>`;
+    return;
+  }
 
   const descuento = calcularDescuento(precioNeto);
   const precioConDescuento = precioNeto - descuento;

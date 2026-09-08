@@ -60,9 +60,15 @@
     "testId": 9
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5e4d670d08978ed8aa015ecfd7f8e8c1742bfbe1",
     "commitName": "feature: lista desplegable",
     "commitTimestamp": 1788831815882,
     "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feature: Estado de caja en rojo si se ingresa informacion invalida",
+    "commitTimestamp": 1788831943177,
+    "testId": 11
   }
 ]

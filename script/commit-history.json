@@ -190,16 +190,35 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5e4d670d08978ed8aa015ecfd7f8e8c1742bfbe1",
     "author": "André Ermoth",
     "commit": {
       "date": "2026-09-08T01:43:35.000Z",
       "message": "feature: lista desplegable",
-      "url": "https://github.com/andrestorrezulloa-afk/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/andrestorrezulloa-afk/TotalizadorDeVentas/commit/5e4d670d08978ed8aa015ecfd7f8e8c1742bfbe1"
     },
     "stats": {
       "total": 8,
       "additions": 7,
+      "deletions": 1,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 14,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "André Ermoth",
+    "commit": {
+      "date": "2026-09-08T01:45:42.000Z",
+      "message": "feature: Estado de caja en rojo si se ingresa informacion invalida",
+      "url": "https://github.com/andrestorrezulloa-afk/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 4,
       "deletions": 1,
       "date": "2026-09-08"
     },
