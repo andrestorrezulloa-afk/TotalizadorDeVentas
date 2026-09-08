@@ -72,9 +72,15 @@
     "testId": 11
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5756172257591fa9f0d3a17b5b20554d8c3167a1",
     "commitName": "feature: Funcion cancelar compra",
     "commitTimestamp": 1788832215321,
     "testId": 12
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feature: Cancelar compra en la interfaz",
+    "commitTimestamp": 1788832321681,
+    "testId": 13
   }
 ]
