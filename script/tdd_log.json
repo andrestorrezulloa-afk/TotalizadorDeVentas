@@ -66,9 +66,15 @@
     "testId": 10
   },
   {
-    "commitId": "HEAD",
+    "commitId": "11a9e02fd87a0f3f61708fee9fdee35d1a1cdcc7",
     "commitName": "feature: Estado de caja en rojo si se ingresa informacion invalida",
     "commitTimestamp": 1788831943177,
     "testId": 11
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feature: Funcion cancelar compra",
+    "commitTimestamp": 1788832215321,
+    "testId": 12
   }
 ]

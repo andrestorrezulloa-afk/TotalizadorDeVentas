@@ -1,4 +1,5 @@
-import { calcularPrecioNeto, calcularImpuesto, calcularDescuento } from "./Totalizador.js";
+import { calcularPrecioNeto, calcularImpuesto, calcularDescuento, cancelarCompra } from "./Totalizador.js";
+
 //Precio Neto
 describe("Totalizador - Precio Neto", () => {
   it("deberia calcular el precio neto multiplicando la cantidad por el precio", () => {
@@ -21,6 +22,7 @@ describe("Totalizador - Precio Neto", () => {
     expect(calcularPrecioNeto(3, -10)).toEqual("Precio inválido");
   });
 });
+
 //Impuestos
 describe("Totalizador - Impuesto", () => {
   it("deberia calcular el monto del impuesto para el estado TX (6.25%)", () => {
@@ -35,6 +37,7 @@ describe("Totalizador - Impuesto", () => {
     expect(calcularImpuesto(100, "NY")).toEqual("Estado inválido");
   });
 });
+
 //Descuento
 describe("Totalizador - Descuento", () => {
   it("deberia calcular 0 de descuento si el monto es menor a 1000", () => {
@@ -59,5 +62,22 @@ describe("Totalizador - Descuento", () => {
 
   it("deberia calcular 15% de descuento si el monto es 30000 o mayor", () => {
     expect(calcularDescuento(30000)).toEqual(4500);
+  });
+});
+
+// cancelar compra
+describe("Totalizador - Cancelar Compra", () => {
+  it("debería limpiar los campos de entrada y la vista de resultados", () => {
+    const cantidadInput = { value: "10" };
+    const precioInput = { value: "50" };
+    const estadoSelect = { value: "CA" };
+    const resultadoDiv = { innerHTML: "<p>Total: $500</p>" };
+
+    cancelarCompra(cantidadInput, precioInput, estadoSelect, resultadoDiv);
+
+    expect(cantidadInput.value).toEqual("");
+    expect(precioInput.value).toEqual("");
+    expect(estadoSelect.value).toEqual("UT"); 
+    expect(resultadoDiv.innerHTML).toEqual("");
   });
 });

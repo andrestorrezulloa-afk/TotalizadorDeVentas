@@ -209,12 +209,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "11a9e02fd87a0f3f61708fee9fdee35d1a1cdcc7",
     "author": "André Ermoth",
     "commit": {
       "date": "2026-09-08T01:45:42.000Z",
       "message": "feature: Estado de caja en rojo si se ingresa informacion invalida",
-      "url": "https://github.com/andrestorrezulloa-afk/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/andrestorrezulloa-afk/TotalizadorDeVentas/commit/11a9e02fd87a0f3f61708fee9fdee35d1a1cdcc7"
     },
     "stats": {
       "total": 5,
@@ -224,6 +224,25 @@
     },
     "coverage": 100,
     "test_count": 14,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "André Ermoth",
+    "commit": {
+      "date": "2026-09-08T01:50:14.000Z",
+      "message": "feature: Funcion cancelar compra",
+      "url": "https://github.com/andrestorrezulloa-afk/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 29,
+      "additions": 28,
+      "deletions": 1,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 15,
     "failed_tests": 0,
     "conclusion": "success"
   }
