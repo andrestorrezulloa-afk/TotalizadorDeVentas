@@ -48,9 +48,15 @@
     "testId": 7
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d4a02684da302a6d0501f8641a2cec170f9dd208",
     "commitName": "feature: regla de negocios para estados",
     "commitTimestamp": 1788754112063,
     "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feature: interfaz basica",
+    "commitTimestamp": 1788831662522,
+    "testId": 9
   }
 ]
