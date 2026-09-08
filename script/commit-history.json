@@ -171,17 +171,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5b1bd3e82b8949f257f364ccef4e3a2240c7c153",
     "author": "André Ermoth",
     "commit": {
       "date": "2026-09-08T01:41:01.000Z",
       "message": "feature: interfaz basica",
-      "url": "https://github.com/andrestorrezulloa-afk/TotalizadorDeVentas/commit/HEAD"
+      "url": "https://github.com/andrestorrezulloa-afk/TotalizadorDeVentas/commit/5b1bd3e82b8949f257f364ccef4e3a2240c7c153"
     },
     "stats": {
       "total": 76,
       "additions": 58,
       "deletions": 18,
+      "date": "2026-09-08"
+    },
+    "coverage": 100,
+    "test_count": 14,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "André Ermoth",
+    "commit": {
+      "date": "2026-09-08T01:43:35.000Z",
+      "message": "feature: lista desplegable",
+      "url": "https://github.com/andrestorrezulloa-afk/TotalizadorDeVentas/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 7,
+      "deletions": 1,
       "date": "2026-09-08"
     },
     "coverage": 100,
